@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nginep - Find peaceful places to rest and stay across the world">
+
+    <title>Nginep - Your Peaceful Rest Destination</title>
+
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="main-nav">
+        <a href="index.html" class="logo text-medium">Nginep</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-button text-primary-dark">Home</a></li>
+            <li><a href="browse.html" class="nav-button text-primary-dark">Browse</a></li>
+            <li><a href="review.html" class="nav-button text-primary-dark">Review</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="review-section">
+        <h2 class="text-regular">Leave us A Review</h2>
+        <p class="subtitle text-regular text-secondary">Help us in creating a better experience for your future stay</p>
+
+        <form class="review-form">
+            <input type="text" class="input-field" placeholder="Name" required>
+
+            <div class="star-rating">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star empty">★</span>
+            </div>
+
+            <textarea class="input-field" placeholder="Message" required></textarea>
+
+            <button type="submit" class="submit-btn text-medium">Submit</button>
+        </form>
+
+        <h2 class="text-regular text-primary-dark">What they say</h2>
+
+        <div class="table-container">
+            <table class="testimonials-table">
+                <thead>
+                <tr class="text-primary-dark text-regular">
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Rating</th>
+                    <th>Messages</th>
+                </tr>
+                </thead>
+                <tbody>
+<!--                <tr>-->
+<!--                    <td>1.</td>-->
+<!--                    <td>Daniel Haryono</td>-->
+<!--                    <td>-->
+<!--                        <div class="rating-stars">-->
+<!--                            ★★★★<span class="empty">★</span>-->
+<!--                        </div>-->
+<!--                    </td>-->
+<!--                    <td>I want to register my house in Yogyakarta Indonesia, how can I do that?<br>Thanks.</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>2.</td>-->
+<!--                    <td>Abimanyu B. C.</td>-->
+<!--                    <td>-->
+<!--                        <div class="rating-stars">-->
+<!--                            ★★★★<span class="empty">★</span>-->
+<!--                        </div>-->
+<!--                    </td>-->
+<!--                    <td>Is there any discount for business trip?</td>-->
+<!--                </tr>-->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="pagination">
+            <a href="#">&lt;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <span>...</span>
+            <a href="#">&gt;</a>
+        </div>
+    </section>
+</main>
+<script src="review2.js"></script>
+</body>
+</html>

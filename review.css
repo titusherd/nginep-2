@@ -1,0 +1,121 @@
+/*REVIEW SECTION*/
+.review-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.input-field {
+    width: 100%;
+    padding: 0.75rem;
+    border: 0.5px solid var(--color-secondary-text);
+    border-radius: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.review-form textarea {
+    height: 8.3rem;
+}
+
+.star-rating {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.star {
+    color: #0047CC;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.star.empty {
+    color: #E5E5E5;
+}
+
+.submit-btn {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 0.5rem 3.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    height: 2.3rem;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.testimonials-table {
+    min-width: 42rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.testimonials-table th {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 2px solid var(--color-secondary-text);
+}
+
+.testimonials-table td {
+    padding: 1.25rem 0.9375rem;
+    border-bottom: 1px solid #E5E5E5;
+    color: #1F2937;
+}
+
+.testimonials-table tr:hover {
+    background-color: #F9FAFB;
+}
+
+.rating-stars {
+    color: #0047CC;
+    letter-spacing: 2px;
+}
+
+.rating-stars .empty {
+    color: #E5E5E5;
+}
+
+/*.error-message {*/
+/*    color: red;*/
+/*    font-size: 12px;*/
+/*    margin-top: 4px;*/
+/*}*/
+
+/*.pagination {*/
+/*    display: flex;*/
+/*    gap: 8px;*/
+/*    justify-content: center;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.pagination a {*/
+/*    padding: 8px 12px;*/
+/*    text-decoration: none;*/
+/*    color: #333;*/
+/*    border: 1px solid #ddd;*/
+/*    border-radius: 4px;*/
+/*}*/
+
+/*.pagination a.active {*/
+/*    background-color: #007bff;*/
+/*    color: white;*/
+/*    border-color: #007bff;*/
+/*}*/
+
+/*.pagination a[disabled] {*/
+/*    opacity: 0.5;*/
+/*    pointer-events: none;*/
+/*}*/
+
+/*.pagination a:hover:not([disabled]):not(.active) {*/
+/*    background-color: #f0f0f0;*/
+/*}*/

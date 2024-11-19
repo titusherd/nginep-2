@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #0042C8;
+    --color-primary-text: #152C5B;
+    --color-secondary-text: #717171;
+
+    --font-poppins: 'Poppins', sans-serif;
+}
+
+.text-bold {
+    font-family: var(--font-poppins), serif;
+    font-weight: 700;
+}
+
+.text-medium {
+    font-family: var(--font-poppins), serif;
+    font-weight: 500;
+}
+
+.text-regular {
+    font-family: var(--font-poppins), serif;
+    font-weight: 400;
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.text-primary-dark {
+    color: var(--color-primary-text);
+}
+
+.bg-primary-dark {
+    background-color: var(--color-primary-text);
+}
+
+.text-secondary {
+    color: var(--color-secondary-text);
+}
+
+.bg-secondary {
+    background-color: var(--color-secondary-text);
+}
+
+body {
+    font-family: var(--font-poppins), serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /*display: block;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+/*input, button, textarea, select {*/
+/*    font: inherit;*/
+/*}*/
+
+/*:focus-visible {*/
+/*    outline: 2px solid var(--color-primary);*/
+/*    outline-offset: 2px;*/
+/*}*/
+
